@@ -4,3 +4,6 @@
 nstream will provide a stream-based uniform i/o networking interface similar to
 the fstream template library in the C++ STL.
 nstream will support datagram, stream, and raw sockets as well as IPC.
+
+nstream is included with "#include <nstream>". From there, users can create one
+of three stream objects: nstream, onstream, instream.
