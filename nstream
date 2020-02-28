@@ -1,0 +1,14 @@
+//collate OS macros
+#ifndef __nstream__
+#define __nstream__
+#endif
+#ifdef _WIN32
+#include "Microsoft/nstream.h"
+#endif
+#ifdef macintosh || Macintosh
+#include "Apple/nstream.h"
+#elif __APPLE__ && __MACH__
+#include "Apple/nstream.h"
+#endif
+#ifdef __linux__
+#include "POSIX/nstream.h"
