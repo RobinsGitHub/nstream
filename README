@@ -1,0 +1,6 @@
+"nstream": the Proposed Networking addition to the ISO C++ STL...
+
+"nstream" is short for network stream.
+nstream will provide a stream-based uniform i/o networking interface similar to
+the fstream template library in the C++ STL.
+nstream will support datagram, stream, and raw sockets as well as IPC.
