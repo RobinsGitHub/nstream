@@ -1,1 +1,6 @@
+#ifndef __nstream__
+#define __nstream__
+
 #include "incl/ionstream"
+
+#endif //__nstream__

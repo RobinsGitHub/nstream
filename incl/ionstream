@@ -1,4 +1,9 @@
+#ifndef __nstream_ionstream__
+#define __nstream_ionstream__
+
 #include "ion"
 #include "socket"
 #include "instream"
 #include "onstream"
+
+#endif //__nstream_ionstream__

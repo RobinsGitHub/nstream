@@ -1,3 +1,6 @@
+#ifndef __nstream_instream__
+#define __nstream_instream__
+
 #include "socket"
 
 namespace std
@@ -7,3 +10,5 @@ namespace std
 
 	};
 };
+
+#endif //__nstream_instream__
