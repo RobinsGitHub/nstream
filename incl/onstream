@@ -1,0 +1,9 @@
+#include "socket"
+
+namespace std
+{
+	class basic_onstream
+	{
+
+	};
+};

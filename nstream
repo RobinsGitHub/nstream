@@ -1,4 +1,1 @@
-namespace std
-{
-
-};
+#include "incl/ionstream"
