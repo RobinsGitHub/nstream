@@ -1,16 +1,4 @@
-//collate OS macros
-#ifndef __NSTREAM__
-#define __NSTREAM__
-#endif
-#ifdef _WIN32
-#include "Microsoft/nstream.h"
-#endif
-#ifdef macintosh || Macintosh
-#include "Apple/nstream.h"
-#elif __APPLE__ && __MACH__
-#include "Apple/nstream.h"
-#endif
-#ifdef __linux__
-#include "POSIX/nstream.h"
-#endif
-#endif
+namespace std
+{
+
+};

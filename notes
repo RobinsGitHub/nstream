@@ -1,0 +1,3 @@
+create shared libraries with gcc
+gcc foo.c -c -fpic
+gcc foo.o -shared -o libfoo.so
