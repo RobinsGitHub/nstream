@@ -3,4 +3,7 @@
 
 #include "incl/ionstream"
 
+typedef basic_instream instream;
+typedef basic_onstream onstream;
+typedef basic_ionstream nstream;
 #endif //__nstream__
