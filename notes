@@ -1,3 +1,6 @@
 create shared libraries with gcc
 gcc foo.c -c -fpic
 gcc foo.o -shared -o libfoo.so
+
+all the internet transfer protocols use utf-8 encoding.
+nstream encodes everything as utf-8
